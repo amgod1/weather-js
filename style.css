@@ -99,8 +99,24 @@ body {
     background: var(--red);
     transition: background 0.3s ease-in-out;
 }
+
+.footer-wrapper button {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background: var(--red);
+    color: var(--text_light);
+    transition: background 0.3s ease-in-out;
+}
   
 .top-banner form button:hover {
+    background: var(--darkred);
+}
+
+.footer-wrapper button:hover {
     background: var(--darkred);
 }
   
@@ -204,7 +220,8 @@ body {
     }
     
     .top-banner form input,
-    .top-banner form button {
+    .top-banner form button,
+    .footer-wrapper button {
         width: 100%;
     }
   

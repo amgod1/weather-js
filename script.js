@@ -2,7 +2,10 @@ const form = document.querySelector(".top-banner form");
 const input = document.querySelector(".top-banner input");
 const msg = document.querySelector(".top-banner .msg");
 const list = document.querySelector(".ajax-section .cities");
+const clearAll = document.getElementById('clear')
 const apiKey = "60909d5777c5a2f8387a50a65d61d33a";
+
+clearAll.onclick = () => list.innerHTML = ``
 
 form.addEventListener("submit", e => {
   e.preventDefault();
